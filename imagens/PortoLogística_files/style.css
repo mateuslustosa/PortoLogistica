@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Itim&family=Oswald:wght@200..700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+  -webkit-justify-content: space-evenly;
+     -moz-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+     -moz-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 15vh;
+  font-family: "Oswald";
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+nav {
+  width: 45%;
+}
+
+ul {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+  -webkit-justify-content: space-evenly;
+     -moz-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  list-style: none;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+     -moz-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+li {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+  color: #5b5b5b;
+}
+
+a:hover {
+  color: #000000;
+  font-size: 1, 5rem;
+  border: solid;
+  font-weight: 900;
+}
+
+button {
+  color: #000000;
+  padding: 1%;
+  font-size: 1, 5rem;
+  border: solid;
+  font-weight: 900;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+main {
+  font-family: "Oswald";
+  color: white;
+}
+main .background_containers {
+  height: 45vh;
+  background-image: url(./imagens/containers.jpeg);
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+}
+main h1 {
+  font-size: 2rem;
+}

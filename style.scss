@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Itim&family=Oswald:wght@200..700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 15vh;
+  font-family: "Oswald";
+}
+
+h2{
+  font-weight: 700;
+  font-size: 2.5rem;
+  position: relative;
+  right: 4%;
+}
+
+nav{
+  width: 30%;
+  position: relative;
+  left: 10%;
+
+}
+
+ul{
+  display:flex;
+  justify-content: space-evenly;
+  list-style: none;
+  align-items: center;
+}
+
+li{
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+a{
+  text-decoration: none;
+  color:#5b5b5b;
+}
+
+a:hover{
+  color: #000000;
+  font-size: 1,5rem;
+  border: solid;
+  font-weight: 900;
+}
+
+button{
+  color:#000000;
+  padding: 1%;
+  font-size: 1,5rem;
+  border: solid;
+  font-weight: 900;
+}
+
+button:hover{
+  cursor:pointer;
+}
+
+main{
+.background_containers{
+  font-family: "Oswald";
+  height: 60vh;
+  background-image: url(./imagens/containers.jpeg);
+  background-size: 100% 100vh;
+  background-position: center;
+}
+
+.conteudoSection{
+  color: white;
+  width: 35%;
+  position: relative;
+  left: 9%;
+  top: 30%;
+
+h1{
+  font-size: 7rem;
+}
+
+h3{
+  position: relative;
+  left: 1%;
+  font-size: 2rem;
+}
+
+  button{
+    padding: 12px 50px;
+    border: none;
+    background-color: #0016df;
+    color: white;
+    margin-top: 2%;
+    position:relative;
+    left: 15%;
+  }
+}
+}
